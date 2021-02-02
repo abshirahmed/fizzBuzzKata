@@ -7,6 +7,9 @@ import { expect } from 'chai';
 // TODO: given a parameter value which is a multiple of 3 and 5, the function should return "FizzBuzz"
 
 function fizzBuzzCompute(value: number) {
+    if (value < 1) {
+        throw new Error('value is below 1');
+    }
     return value.toString();
 }
 
