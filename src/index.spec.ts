@@ -20,7 +20,7 @@ describe('FizzBuzz kata', () => {
     it('given a number, the function should fail if the number is below 1', () => {
         expect(() => fizzBuzzCompute(0)).to.throw();
     });
-    it.skip('given a number, the function should fail if the number is greater than 100', () => {
-
+    it('given a number, the function should fail if the number is greater than 100', () => {
+        expect(() => fizzBuzzCompute(101)).to.throw();
     });
 });
