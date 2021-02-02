@@ -10,6 +10,9 @@ function fizzBuzzCompute(value: number) {
     if (value < 1) {
         throw new Error('value is below 1');
     }
+    if (value > 100) {
+        throw new Error('value is above 100');
+    }
     return value.toString();
 }
 
