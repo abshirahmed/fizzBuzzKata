@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 
 // TODO: given a parameter value, the function should return the value as a string ✅
-// TODO: given a parameter value, the function should check to see value is between 1 and 100 🔴
+// TODO: given a parameter value, the function should check to see value is between 1 and 100 ✅
 // TODO: given a parameter value which is a multiple of 3, the function should return "Fizz"
 // TODO: given a parameter value which is a multiple of 5, the function should return "Buzz"
 // TODO: given a parameter value which is a multiple of 3 and 5, the function should return "FizzBuzz"
