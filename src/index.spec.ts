@@ -1,8 +1,12 @@
-import { sum } from './index';
 import { expect } from 'chai';
 
-describe('sample test-suite', () => {
-    it('sum 1 + 3 should be 4', () => {
-        expect(sum(1, 3)).eql(4);
+
+function fizzBuzzCompute(value: number) {
+    return true;
+}
+
+describe('FizzBuzz kata', () => {
+    it('if the function return a number, it should be of type string', () => {
+        expect(fizzBuzzCompute(69)).to.be.a('string');
     });
 });
